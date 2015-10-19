@@ -1,0 +1,26 @@
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\clicker.ap_ \
+ : C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\res\drawable-hdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\res\drawable-ldpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\res\drawable-mdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\res\drawable-xhdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\res\drawable-xhdpi\ouya_icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\res\drawable-xxhdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\res\drawable-xxxhdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\res\drawable-hdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\res\drawable-ldpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\res\drawable-mdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\res\drawable-xhdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\res\drawable-xhdpi\ouya_icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\res\drawable-xxhdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\res\drawable-xxxhdpi\icon.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\manifest \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img\asuka-click.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img\asuka.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img\booster.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img\click.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img\matt.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img\money.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img\shop.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\assets\img\Untitled-2.png \
+C:\Users\Matt\Documents\GitHub\clicker\bin\android\bin\bin\AndroidManifest.xml \

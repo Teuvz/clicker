@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:14
+-keep class com.ukuleledog.games.clicker.clicker.MainActivity { <init>(...); }
+
