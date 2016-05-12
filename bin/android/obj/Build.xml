@@ -244,6 +244,9 @@
   <file name="src/openfl/_v2/text/TextLineMetrics.cpp">
    <depend name="include/openfl/_v2/text/TextLineMetrics.h"/>
   </file>
+  <file name="src/openfl/_v2/text/TextFormatAlign.cpp">
+   <depend name="include/openfl/_v2/text/TextFormatAlign.h"/>
+  </file>
   <file name="src/openfl/_v2/text/TextFormat.cpp">
    <depend name="include/openfl/_v2/text/TextFormat.h"/>
   </file>
@@ -458,8 +461,16 @@
    <depend name="include/Std.h"/>
    <depend name="include/openfl/_v2/geom/ColorTransform.h"/>
   </file>
+  <file name="src/openfl/_v2/filters/GlowFilter.cpp">
+   <depend name="include/openfl/_v2/filters/BitmapFilter.h"/>
+   <depend name="include/openfl/_v2/filters/GlowFilter.h"/>
+  </file>
   <file name="src/openfl/_v2/filters/BitmapFilter.cpp">
    <depend name="include/openfl/_v2/filters/BitmapFilter.h"/>
+  </file>
+  <file name="src/openfl/_v2/feedback/Haptic.cpp">
+   <depend name="include/openfl/_v2/Lib.h"/>
+   <depend name="include/openfl/_v2/feedback/Haptic.h"/>
   </file>
   <file name="src/openfl/_v2/events/SystemEvent.cpp">
    <depend name="include/Std.h"/>
@@ -826,6 +837,15 @@
   <file name="src/openfl/_Vector/Vector_Impl_.cpp">
    <depend name="include/openfl/_Vector/Vector_Impl_.h"/>
   </file>
+  <file name="src/motion/easing/LinearEaseNone.cpp">
+   <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/motion/easing/LinearEaseNone.h"/>
+  </file>
+  <file name="src/motion/easing/Linear.cpp">
+   <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/motion/easing/Linear.h"/>
+   <depend name="include/motion/easing/LinearEaseNone.h"/>
+  </file>
   <file name="src/motion/easing/ExpoEaseInOut.cpp">
    <depend name="include/motion/easing/ExpoEaseInOut.h"/>
    <depend name="include/motion/easing/IEasing.h"/>
@@ -1126,23 +1146,32 @@
    <depend name="include/motion/actuators/IGenericActuator.h"/>
    <depend name="include/motion/easing/Bounce.h"/>
    <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/motion/easing/Linear.h"/>
    <depend name="include/openfl/_v2/Assets.h"/>
    <depend name="include/openfl/_v2/display/BitmapData.h"/>
+   <depend name="include/openfl/_v2/display/CapsStyle.h"/>
    <depend name="include/openfl/_v2/display/DisplayObject.h"/>
    <depend name="include/openfl/_v2/display/DisplayObjectContainer.h"/>
    <depend name="include/openfl/_v2/display/Graphics.h"/>
    <depend name="include/openfl/_v2/display/IBitmapDrawable.h"/>
    <depend name="include/openfl/_v2/display/InteractiveObject.h"/>
+   <depend name="include/openfl/_v2/display/JointStyle.h"/>
+   <depend name="include/openfl/_v2/display/LineScaleMode.h"/>
    <depend name="include/openfl/_v2/display/Sprite.h"/>
    <depend name="include/openfl/_v2/display/Stage.h"/>
    <depend name="include/openfl/_v2/events/Event.h"/>
    <depend name="include/openfl/_v2/events/EventDispatcher.h"/>
    <depend name="include/openfl/_v2/events/IEventDispatcher.h"/>
    <depend name="include/openfl/_v2/events/MouseEvent.h"/>
+   <depend name="include/openfl/_v2/feedback/Haptic.h"/>
+   <depend name="include/openfl/_v2/filters/BitmapFilter.h"/>
+   <depend name="include/openfl/_v2/filters/GlowFilter.h"/>
    <depend name="include/openfl/_v2/geom/Matrix.h"/>
    <depend name="include/openfl/_v2/geom/Point.h"/>
    <depend name="include/openfl/_v2/geom/Rectangle.h"/>
    <depend name="include/openfl/_v2/text/TextField.h"/>
+   <depend name="include/openfl/_v2/text/TextFormat.h"/>
+   <depend name="include/openfl/_v2/text/TextFormatAlign.h"/>
    <depend name="include/openfl/_v2/utils/Timer.h"/>
    <depend name="include/openfl/events/TimerEvent.h"/>
   </file>

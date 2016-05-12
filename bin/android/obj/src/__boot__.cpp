@@ -51,6 +51,7 @@
 #include <openfl/_v2/utils/IMemoryRange.h>
 #include <openfl/_v2/ui/Keyboard.h>
 #include <openfl/_v2/text/TextLineMetrics.h>
+#include <openfl/_v2/text/TextFormatAlign.h>
 #include <openfl/_v2/text/TextFormat.h>
 #include <openfl/_v2/text/TextField.h>
 #include <openfl/_v2/text/FontType.h>
@@ -77,7 +78,9 @@
 #include <openfl/_v2/geom/Rectangle.h>
 #include <openfl/_v2/geom/Matrix.h>
 #include <openfl/_v2/geom/ColorTransform.h>
+#include <openfl/_v2/filters/GlowFilter.h>
 #include <openfl/_v2/filters/BitmapFilter.h>
+#include <openfl/_v2/feedback/Haptic.h>
 #include <openfl/_v2/events/SystemEvent.h>
 #include <openfl/_v2/events/KeyboardEvent.h>
 #include <openfl/_v2/events/HTTPStatusEvent.h>
@@ -116,6 +119,8 @@
 #include <openfl/_v2/AssetCache.h>
 #include <openfl/_v2/IAssetCache.h>
 #include <openfl/_Vector/Vector_Impl_.h>
+#include <motion/easing/LinearEaseNone.h>
+#include <motion/easing/Linear.h>
 #include <motion/easing/ExpoEaseInOut.h>
 #include <motion/easing/ExpoEaseIn.h>
 #include <motion/easing/BounceEaseOut.h>
@@ -252,6 +257,7 @@ hx::RegisterResources( hx::GetResources() );
 ::openfl::_v2::utils::IMemoryRange_obj::__register();
 ::openfl::_v2::ui::Keyboard_obj::__register();
 ::openfl::_v2::text::TextLineMetrics_obj::__register();
+::openfl::_v2::text::TextFormatAlign_obj::__register();
 ::openfl::_v2::text::TextFormat_obj::__register();
 ::openfl::_v2::text::TextField_obj::__register();
 ::openfl::_v2::text::FontType_obj::__register();
@@ -278,7 +284,9 @@ hx::RegisterResources( hx::GetResources() );
 ::openfl::_v2::geom::Rectangle_obj::__register();
 ::openfl::_v2::geom::Matrix_obj::__register();
 ::openfl::_v2::geom::ColorTransform_obj::__register();
+::openfl::_v2::filters::GlowFilter_obj::__register();
 ::openfl::_v2::filters::BitmapFilter_obj::__register();
+::openfl::_v2::feedback::Haptic_obj::__register();
 ::openfl::_v2::events::SystemEvent_obj::__register();
 ::openfl::_v2::events::KeyboardEvent_obj::__register();
 ::openfl::_v2::events::HTTPStatusEvent_obj::__register();
@@ -317,6 +325,8 @@ hx::RegisterResources( hx::GetResources() );
 ::openfl::_v2::AssetCache_obj::__register();
 ::openfl::_v2::IAssetCache_obj::__register();
 ::openfl::_Vector::Vector_Impl__obj::__register();
+::motion::easing::LinearEaseNone_obj::__register();
+::motion::easing::Linear_obj::__register();
 ::motion::easing::ExpoEaseInOut_obj::__register();
 ::motion::easing::ExpoEaseIn_obj::__register();
 ::motion::easing::BounceEaseOut_obj::__register();
@@ -474,6 +484,8 @@ hx::RegisterResources( hx::GetResources() );
 ::motion::easing::BounceEaseOut_obj::__boot();
 ::motion::easing::ExpoEaseIn_obj::__boot();
 ::motion::easing::ExpoEaseInOut_obj::__boot();
+::motion::easing::Linear_obj::__boot();
+::motion::easing::LinearEaseNone_obj::__boot();
 ::openfl::_Vector::Vector_Impl__obj::__boot();
 ::openfl::_v2::IAssetCache_obj::__boot();
 ::openfl::_v2::AssetCache_obj::__boot();
@@ -512,7 +524,9 @@ hx::RegisterResources( hx::GetResources() );
 ::openfl::_v2::events::HTTPStatusEvent_obj::__boot();
 ::openfl::_v2::events::KeyboardEvent_obj::__boot();
 ::openfl::_v2::events::SystemEvent_obj::__boot();
+::openfl::_v2::feedback::Haptic_obj::__boot();
 ::openfl::_v2::filters::BitmapFilter_obj::__boot();
+::openfl::_v2::filters::GlowFilter_obj::__boot();
 ::openfl::_v2::geom::ColorTransform_obj::__boot();
 ::openfl::_v2::geom::Matrix_obj::__boot();
 ::openfl::_v2::geom::Rectangle_obj::__boot();
@@ -539,6 +553,7 @@ hx::RegisterResources( hx::GetResources() );
 ::openfl::_v2::text::FontType_obj::__boot();
 ::openfl::_v2::text::TextField_obj::__boot();
 ::openfl::_v2::text::TextFormat_obj::__boot();
+::openfl::_v2::text::TextFormatAlign_obj::__boot();
 ::openfl::_v2::text::TextLineMetrics_obj::__boot();
 ::openfl::_v2::ui::Keyboard_obj::__boot();
 ::openfl::_v2::utils::IMemoryRange_obj::__boot();

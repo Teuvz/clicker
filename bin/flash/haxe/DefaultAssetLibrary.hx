@@ -52,14 +52,46 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("img/booster.png", AssetType.IMAGE);
 		className.set ("img/click.png", __ASSET__img_click_png);
 		type.set ("img/click.png", AssetType.IMAGE);
+		className.set ("img/intro.png", __ASSET__img_intro_png);
+		type.set ("img/intro.png", AssetType.IMAGE);
 		className.set ("img/matt.png", __ASSET__img_matt_png);
 		type.set ("img/matt.png", AssetType.IMAGE);
 		className.set ("img/money.png", __ASSET__img_money_png);
 		type.set ("img/money.png", AssetType.IMAGE);
+		className.set ("img/shop-cheerleader.png", __ASSET__img_shop_cheerleader_png);
+		type.set ("img/shop-cheerleader.png", AssetType.IMAGE);
+		className.set ("img/shop-close.png", __ASSET__img_shop_close_png);
+		type.set ("img/shop-close.png", AssetType.IMAGE);
+		className.set ("img/shop-evangelion.png", __ASSET__img_shop_evangelion_png);
+		type.set ("img/shop-evangelion.png", AssetType.IMAGE);
+		className.set ("img/shop-leia.png", __ASSET__img_shop_leia_png);
+		type.set ("img/shop-leia.png", AssetType.IMAGE);
+		className.set ("img/shop-maid.png", __ASSET__img_shop_maid_png);
+		type.set ("img/shop-maid.png", AssetType.IMAGE);
+		className.set ("img/shop-mario.png", __ASSET__img_shop_mario_png);
+		type.set ("img/shop-mario.png", AssetType.IMAGE);
+		className.set ("img/shop-mermaid.png", __ASSET__img_shop_mermaid_png);
+		type.set ("img/shop-mermaid.png", AssetType.IMAGE);
+		className.set ("img/shop-none.png", __ASSET__img_shop_none_png);
+		type.set ("img/shop-none.png", AssetType.IMAGE);
+		className.set ("img/shop-pikachu.png", __ASSET__img_shop_pikachu_png);
+		type.set ("img/shop-pikachu.png", AssetType.IMAGE);
+		className.set ("img/shop-unicorn.png", __ASSET__img_shop_unicorn_png);
+		type.set ("img/shop-unicorn.png", AssetType.IMAGE);
 		className.set ("img/shop.png", __ASSET__img_shop_png);
 		type.set ("img/shop.png", AssetType.IMAGE);
-		className.set ("img/Untitled-2.png", __ASSET__img_untitled_2_png);
-		type.set ("img/Untitled-2.png", AssetType.IMAGE);
+		className.set ("img/special-1.png", __ASSET__img_special_1_png);
+		type.set ("img/special-1.png", AssetType.IMAGE);
+		className.set ("img/special-2.png", __ASSET__img_special_2_png);
+		type.set ("img/special-2.png", AssetType.IMAGE);
+		className.set ("img/special-3.png", __ASSET__img_special_3_png);
+		type.set ("img/special-3.png", AssetType.IMAGE);
+		className.set ("img/special-4.png", __ASSET__img_special_4_png);
+		type.set ("img/special-4.png", AssetType.IMAGE);
+		className.set ("img/special-super.png", __ASSET__img_special_super_png);
+		type.set ("img/special-super.png", AssetType.IMAGE);
+		className.set ("img/special.png", __ASSET__img_special_png);
+		type.set ("img/special.png", AssetType.IMAGE);
 		
 		
 		#elseif html5
@@ -81,6 +113,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "img/intro.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
 		id = "img/matt.png";
 		path.set (id, id);
 		
@@ -89,11 +125,71 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "img/shop-cheerleader.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-close.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-evangelion.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-leia.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-maid.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-mario.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-mermaid.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-none.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-pikachu.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-unicorn.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
 		id = "img/shop.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "img/Untitled-2.png";
+		id = "img/special-1.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/special-2.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/special-3.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/special-4.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/special-super.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "img/special.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
@@ -102,6 +198,22 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#else
 		
 		#if openfl
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -130,17 +242,65 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("img/click.png", __ASSET__img_click_png);
 		type.set ("img/click.png", AssetType.IMAGE);
 		
+		className.set ("img/intro.png", __ASSET__img_intro_png);
+		type.set ("img/intro.png", AssetType.IMAGE);
+		
 		className.set ("img/matt.png", __ASSET__img_matt_png);
 		type.set ("img/matt.png", AssetType.IMAGE);
 		
 		className.set ("img/money.png", __ASSET__img_money_png);
 		type.set ("img/money.png", AssetType.IMAGE);
 		
+		className.set ("img/shop-cheerleader.png", __ASSET__img_shop_cheerleader_png);
+		type.set ("img/shop-cheerleader.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-close.png", __ASSET__img_shop_close_png);
+		type.set ("img/shop-close.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-evangelion.png", __ASSET__img_shop_evangelion_png);
+		type.set ("img/shop-evangelion.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-leia.png", __ASSET__img_shop_leia_png);
+		type.set ("img/shop-leia.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-maid.png", __ASSET__img_shop_maid_png);
+		type.set ("img/shop-maid.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-mario.png", __ASSET__img_shop_mario_png);
+		type.set ("img/shop-mario.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-mermaid.png", __ASSET__img_shop_mermaid_png);
+		type.set ("img/shop-mermaid.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-none.png", __ASSET__img_shop_none_png);
+		type.set ("img/shop-none.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-pikachu.png", __ASSET__img_shop_pikachu_png);
+		type.set ("img/shop-pikachu.png", AssetType.IMAGE);
+		
+		className.set ("img/shop-unicorn.png", __ASSET__img_shop_unicorn_png);
+		type.set ("img/shop-unicorn.png", AssetType.IMAGE);
+		
 		className.set ("img/shop.png", __ASSET__img_shop_png);
 		type.set ("img/shop.png", AssetType.IMAGE);
 		
-		className.set ("img/Untitled-2.png", __ASSET__img_untitled_2_png);
-		type.set ("img/Untitled-2.png", AssetType.IMAGE);
+		className.set ("img/special-1.png", __ASSET__img_special_1_png);
+		type.set ("img/special-1.png", AssetType.IMAGE);
+		
+		className.set ("img/special-2.png", __ASSET__img_special_2_png);
+		type.set ("img/special-2.png", AssetType.IMAGE);
+		
+		className.set ("img/special-3.png", __ASSET__img_special_3_png);
+		type.set ("img/special-3.png", AssetType.IMAGE);
+		
+		className.set ("img/special-4.png", __ASSET__img_special_4_png);
+		type.set ("img/special-4.png", AssetType.IMAGE);
+		
+		className.set ("img/special-super.png", __ASSET__img_special_super_png);
+		type.set ("img/special-super.png", AssetType.IMAGE);
+		
+		className.set ("img/special.png", __ASSET__img_special_png);
+		type.set ("img/special.png", AssetType.IMAGE);
 		*/
 		var useManifest = true;
 		
@@ -719,15 +879,47 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__img_asuka_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__img_booster_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__img_click_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_intro_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__img_matt_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__img_money_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_cheerleader_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_close_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_evangelion_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_leia_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_maid_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_mario_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_mermaid_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_none_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_pikachu_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_shop_unicorn_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__img_shop_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__img_untitled_2_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_special_1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_special_2_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_special_3_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_special_4_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_special_super_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__img_special_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 
 
 #elseif html5
 
 #if openfl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -752,10 +944,26 @@ class DefaultAssetLibrary extends AssetLibrary {
 //@:bitmap("assets/img/asuka.png") class __ASSET__img_asuka_png extends openfl.display.BitmapData {}
 //@:bitmap("assets/img/booster.png") class __ASSET__img_booster_png extends openfl.display.BitmapData {}
 //@:bitmap("assets/img/click.png") class __ASSET__img_click_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/intro.png") class __ASSET__img_intro_png extends openfl.display.BitmapData {}
 //@:bitmap("assets/img/matt.png") class __ASSET__img_matt_png extends openfl.display.BitmapData {}
 //@:bitmap("assets/img/money.png") class __ASSET__img_money_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-cheerleader.png") class __ASSET__img_shop_cheerleader_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-close.png") class __ASSET__img_shop_close_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-evangelion.png") class __ASSET__img_shop_evangelion_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-leia.png") class __ASSET__img_shop_leia_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-maid.png") class __ASSET__img_shop_maid_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-mario.png") class __ASSET__img_shop_mario_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-mermaid.png") class __ASSET__img_shop_mermaid_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-none.png") class __ASSET__img_shop_none_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-pikachu.png") class __ASSET__img_shop_pikachu_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/shop-unicorn.png") class __ASSET__img_shop_unicorn_png extends openfl.display.BitmapData {}
 //@:bitmap("assets/img/shop.png") class __ASSET__img_shop_png extends openfl.display.BitmapData {}
-//@:bitmap("assets/img/Untitled-2.png") class __ASSET__img_untitled_2_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/special-1.png") class __ASSET__img_special_1_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/special-2.png") class __ASSET__img_special_2_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/special-3.png") class __ASSET__img_special_3_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/special-4.png") class __ASSET__img_special_4_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/special-super.png") class __ASSET__img_special_super_png extends openfl.display.BitmapData {}
+//@:bitmap("assets/img/special.png") class __ASSET__img_special_png extends openfl.display.BitmapData {}
 //
 //
 

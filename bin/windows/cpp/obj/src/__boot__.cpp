@@ -53,6 +53,7 @@
 #include <openfl/_v2/utils/IMemoryRange.h>
 #include <openfl/_v2/ui/Keyboard.h>
 #include <openfl/_v2/text/TextLineMetrics.h>
+#include <openfl/_v2/text/TextFormatAlign.h>
 #include <openfl/_v2/text/TextFormat.h>
 #include <openfl/_v2/text/TextField.h>
 #include <openfl/_v2/text/FontType.h>
@@ -118,6 +119,36 @@
 #include <openfl/_v2/AssetCache.h>
 #include <openfl/_v2/IAssetCache.h>
 #include <openfl/_Vector/Vector_Impl_.h>
+#include <motion/easing/LinearEaseNone.h>
+#include <motion/easing/Linear.h>
+#include <motion/easing/ExpoEaseInOut.h>
+#include <motion/easing/ExpoEaseIn.h>
+#include <motion/easing/BounceEaseOut.h>
+#include <motion/easing/BounceEaseInOut.h>
+#include <motion/easing/BounceEaseIn.h>
+#include <motion/easing/Bounce.h>
+#include <motion/actuators/TransformActuator.h>
+#include <motion/actuators/PropertyPathDetails.h>
+#include <motion/actuators/PropertyDetails.h>
+#include <motion/actuators/MotionPathActuator.h>
+#include <motion/actuators/MethodActuator.h>
+#include <motion/actuators/FilterActuator.h>
+#include <motion/RotationPath.h>
+#include <motion/LinearPath.h>
+#include <motion/BezierPath.h>
+#include <motion/ComponentPath.h>
+#include <motion/IComponentPath.h>
+#include <motion/MotionPath.h>
+#include <motion/_Actuate/TweenTimer.h>
+#include <motion/_Actuate/TransformOptions.h>
+#include <motion/_Actuate/EffectsOptions.h>
+#include <motion/Actuate.h>
+#include <motion/easing/ExpoEaseOut.h>
+#include <motion/easing/IEasing.h>
+#include <motion/easing/Expo.h>
+#include <motion/actuators/SimpleActuator.h>
+#include <motion/actuators/GenericActuator.h>
+#include <motion/actuators/IGenericActuator.h>
 #include <haxe/zip/Uncompress.h>
 #include <haxe/zip/FlushMode.h>
 #include <haxe/zip/Compress.h>
@@ -229,6 +260,7 @@ hx::RegisterResources( hx::GetResources() );
 ::openfl::_v2::utils::IMemoryRange_obj::__register();
 ::openfl::_v2::ui::Keyboard_obj::__register();
 ::openfl::_v2::text::TextLineMetrics_obj::__register();
+::openfl::_v2::text::TextFormatAlign_obj::__register();
 ::openfl::_v2::text::TextFormat_obj::__register();
 ::openfl::_v2::text::TextField_obj::__register();
 ::openfl::_v2::text::FontType_obj::__register();
@@ -294,6 +326,36 @@ hx::RegisterResources( hx::GetResources() );
 ::openfl::_v2::AssetCache_obj::__register();
 ::openfl::_v2::IAssetCache_obj::__register();
 ::openfl::_Vector::Vector_Impl__obj::__register();
+::motion::easing::LinearEaseNone_obj::__register();
+::motion::easing::Linear_obj::__register();
+::motion::easing::ExpoEaseInOut_obj::__register();
+::motion::easing::ExpoEaseIn_obj::__register();
+::motion::easing::BounceEaseOut_obj::__register();
+::motion::easing::BounceEaseInOut_obj::__register();
+::motion::easing::BounceEaseIn_obj::__register();
+::motion::easing::Bounce_obj::__register();
+::motion::actuators::TransformActuator_obj::__register();
+::motion::actuators::PropertyPathDetails_obj::__register();
+::motion::actuators::PropertyDetails_obj::__register();
+::motion::actuators::MotionPathActuator_obj::__register();
+::motion::actuators::MethodActuator_obj::__register();
+::motion::actuators::FilterActuator_obj::__register();
+::motion::RotationPath_obj::__register();
+::motion::LinearPath_obj::__register();
+::motion::BezierPath_obj::__register();
+::motion::ComponentPath_obj::__register();
+::motion::IComponentPath_obj::__register();
+::motion::MotionPath_obj::__register();
+::motion::_Actuate::TweenTimer_obj::__register();
+::motion::_Actuate::TransformOptions_obj::__register();
+::motion::_Actuate::EffectsOptions_obj::__register();
+::motion::Actuate_obj::__register();
+::motion::easing::ExpoEaseOut_obj::__register();
+::motion::easing::IEasing_obj::__register();
+::motion::easing::Expo_obj::__register();
+::motion::actuators::SimpleActuator_obj::__register();
+::motion::actuators::GenericActuator_obj::__register();
+::motion::actuators::IGenericActuator_obj::__register();
 ::haxe::zip::Uncompress_obj::__register();
 ::haxe::zip::FlushMode_obj::__register();
 ::haxe::zip::Compress_obj::__register();
@@ -397,6 +459,36 @@ hx::RegisterResources( hx::GetResources() );
 ::haxe::zip::Compress_obj::__boot();
 ::haxe::zip::FlushMode_obj::__boot();
 ::haxe::zip::Uncompress_obj::__boot();
+::motion::actuators::IGenericActuator_obj::__boot();
+::motion::actuators::GenericActuator_obj::__boot();
+::motion::actuators::SimpleActuator_obj::__boot();
+::motion::easing::Expo_obj::__boot();
+::motion::easing::IEasing_obj::__boot();
+::motion::easing::ExpoEaseOut_obj::__boot();
+::motion::Actuate_obj::__boot();
+::motion::_Actuate::EffectsOptions_obj::__boot();
+::motion::_Actuate::TransformOptions_obj::__boot();
+::motion::_Actuate::TweenTimer_obj::__boot();
+::motion::MotionPath_obj::__boot();
+::motion::IComponentPath_obj::__boot();
+::motion::ComponentPath_obj::__boot();
+::motion::BezierPath_obj::__boot();
+::motion::LinearPath_obj::__boot();
+::motion::RotationPath_obj::__boot();
+::motion::actuators::FilterActuator_obj::__boot();
+::motion::actuators::MethodActuator_obj::__boot();
+::motion::actuators::MotionPathActuator_obj::__boot();
+::motion::actuators::PropertyDetails_obj::__boot();
+::motion::actuators::PropertyPathDetails_obj::__boot();
+::motion::actuators::TransformActuator_obj::__boot();
+::motion::easing::Bounce_obj::__boot();
+::motion::easing::BounceEaseIn_obj::__boot();
+::motion::easing::BounceEaseInOut_obj::__boot();
+::motion::easing::BounceEaseOut_obj::__boot();
+::motion::easing::ExpoEaseIn_obj::__boot();
+::motion::easing::ExpoEaseInOut_obj::__boot();
+::motion::easing::Linear_obj::__boot();
+::motion::easing::LinearEaseNone_obj::__boot();
 ::openfl::_Vector::Vector_Impl__obj::__boot();
 ::openfl::_v2::IAssetCache_obj::__boot();
 ::openfl::_v2::AssetCache_obj::__boot();
@@ -462,6 +554,7 @@ hx::RegisterResources( hx::GetResources() );
 ::openfl::_v2::text::FontType_obj::__boot();
 ::openfl::_v2::text::TextField_obj::__boot();
 ::openfl::_v2::text::TextFormat_obj::__boot();
+::openfl::_v2::text::TextFormatAlign_obj::__boot();
 ::openfl::_v2::text::TextLineMetrics_obj::__boot();
 ::openfl::_v2::ui::Keyboard_obj::__boot();
 ::openfl::_v2::utils::IMemoryRange_obj::__boot();

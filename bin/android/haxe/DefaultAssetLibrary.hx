@@ -54,14 +54,46 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("img/booster.png", AssetType.IMAGE);
 		path.set ("img/click.png", "img/click.png");
 		type.set ("img/click.png", AssetType.IMAGE);
+		path.set ("img/intro.png", "img/intro.png");
+		type.set ("img/intro.png", AssetType.IMAGE);
 		path.set ("img/matt.png", "img/matt.png");
 		type.set ("img/matt.png", AssetType.IMAGE);
 		path.set ("img/money.png", "img/money.png");
 		type.set ("img/money.png", AssetType.IMAGE);
+		path.set ("img/shop-cheerleader.png", "img/shop-cheerleader.png");
+		type.set ("img/shop-cheerleader.png", AssetType.IMAGE);
+		path.set ("img/shop-close.png", "img/shop-close.png");
+		type.set ("img/shop-close.png", AssetType.IMAGE);
+		path.set ("img/shop-evangelion.png", "img/shop-evangelion.png");
+		type.set ("img/shop-evangelion.png", AssetType.IMAGE);
+		path.set ("img/shop-leia.png", "img/shop-leia.png");
+		type.set ("img/shop-leia.png", AssetType.IMAGE);
+		path.set ("img/shop-maid.png", "img/shop-maid.png");
+		type.set ("img/shop-maid.png", AssetType.IMAGE);
+		path.set ("img/shop-mario.png", "img/shop-mario.png");
+		type.set ("img/shop-mario.png", AssetType.IMAGE);
+		path.set ("img/shop-mermaid.png", "img/shop-mermaid.png");
+		type.set ("img/shop-mermaid.png", AssetType.IMAGE);
+		path.set ("img/shop-none.png", "img/shop-none.png");
+		type.set ("img/shop-none.png", AssetType.IMAGE);
+		path.set ("img/shop-pikachu.png", "img/shop-pikachu.png");
+		type.set ("img/shop-pikachu.png", AssetType.IMAGE);
+		path.set ("img/shop-unicorn.png", "img/shop-unicorn.png");
+		type.set ("img/shop-unicorn.png", AssetType.IMAGE);
 		path.set ("img/shop.png", "img/shop.png");
 		type.set ("img/shop.png", AssetType.IMAGE);
-		path.set ("img/Untitled-2.png", "img/Untitled-2.png");
-		type.set ("img/Untitled-2.png", AssetType.IMAGE);
+		path.set ("img/special-1.png", "img/special-1.png");
+		type.set ("img/special-1.png", AssetType.IMAGE);
+		path.set ("img/special-2.png", "img/special-2.png");
+		type.set ("img/special-2.png", AssetType.IMAGE);
+		path.set ("img/special-3.png", "img/special-3.png");
+		type.set ("img/special-3.png", AssetType.IMAGE);
+		path.set ("img/special-4.png", "img/special-4.png");
+		type.set ("img/special-4.png", AssetType.IMAGE);
+		path.set ("img/special-super.png", "img/special-super.png");
+		type.set ("img/special-super.png", AssetType.IMAGE);
+		path.set ("img/special.png", "img/special.png");
+		type.set ("img/special.png", AssetType.IMAGE);
 		
 		
 		#elseif html5
@@ -79,16 +111,64 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "img/click.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
+		id = "img/intro.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
 		id = "img/matt.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "img/money.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
+		id = "img/shop-cheerleader.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-close.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-evangelion.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-leia.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-maid.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-mario.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-mermaid.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-none.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-pikachu.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/shop-unicorn.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
 		id = "img/shop.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "img/Untitled-2.png";
+		id = "img/special-1.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/special-2.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/special-3.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/special-4.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/special-super.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "img/special.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		
@@ -106,9 +186,41 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -744,7 +856,39 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #elseif html5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -43,6 +43,10 @@ class ApplicationMain {
 		types.push (AssetType.IMAGE);
 		
 		
+		urls.push ("img/intro.png");
+		types.push (AssetType.IMAGE);
+		
+		
 		urls.push ("img/matt.png");
 		types.push (AssetType.IMAGE);
 		
@@ -51,11 +55,71 @@ class ApplicationMain {
 		types.push (AssetType.IMAGE);
 		
 		
+		urls.push ("img/shop-cheerleader.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-close.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-evangelion.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-leia.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-maid.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-mario.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-mermaid.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-none.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-pikachu.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/shop-unicorn.png");
+		types.push (AssetType.IMAGE);
+		
+		
 		urls.push ("img/shop.png");
 		types.push (AssetType.IMAGE);
 		
 		
-		urls.push ("img/Untitled-2.png");
+		urls.push ("img/special-1.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/special-2.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/special-3.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/special-4.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/special-super.png");
+		types.push (AssetType.IMAGE);
+		
+		
+		urls.push ("img/special.png");
 		types.push (AssetType.IMAGE);
 		
 		
@@ -115,7 +179,7 @@ class ApplicationMain {
 			orientation: "",
 			resizable: true,
 			stencilBuffer: false,
-			title: "clicker",
+			title: "Je Suis Gros !",
 			vsync: false,
 			width: Std.int (800),
 			

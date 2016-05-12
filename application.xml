@@ -3,7 +3,7 @@
 	<!-- NMML reference: https://gist.github.com/1763850 -->
 	
 	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
-	<meta title="clicker" package="com.ukuleledog.games.clicker.clicker" version="1.0.0" company="matt" />
+	<meta title="Je Suis Gros !" package="com.ukuleledog.games.clicker.clicker" version="1.0.0" company="matt" />
 	
 	<!-- output -->
 	<app main="com.ukuleledog.games.clicker.Main" file="clicker" path="bin" />
@@ -18,7 +18,7 @@
 	<haxelib name="actuate" />
 	
 	<!-- assets -->
-	<icon path="assets/openfl.svg" />
+	<icon path="assets/icon.svg" />
 	<assets path="assets/img" rename="img" />
 	
 	<!-- optimize output

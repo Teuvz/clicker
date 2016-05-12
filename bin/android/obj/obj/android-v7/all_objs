@@ -49,6 +49,7 @@ obj/android-v7/edf984bb_ArrayBufferView.obj
 obj/android-v7/edf984bb_IMemoryRange.obj
 obj/android-v7/13dd1adc_Keyboard.obj
 obj/android-v7/906212b1_TextLineMetrics.obj
+obj/android-v7/906212b1_TextFormatAlign.obj
 obj/android-v7/906212b1_TextFormat.obj
 obj/android-v7/906212b1_TextField.obj
 obj/android-v7/906212b1_FontType.obj
@@ -75,7 +76,9 @@ obj/android-v7/7000f98a_Transform.obj
 obj/android-v7/7000f98a_Rectangle.obj
 obj/android-v7/7000f98a_Matrix.obj
 obj/android-v7/7000f98a_ColorTransform.obj
+obj/android-v7/f8748ba4_GlowFilter.obj
 obj/android-v7/f8748ba4_BitmapFilter.obj
+obj/android-v7/2088347e_Haptic.obj
 obj/android-v7/a8f076ee_SystemEvent.obj
 obj/android-v7/a8f076ee_KeyboardEvent.obj
 obj/android-v7/a8f076ee_HTTPStatusEvent.obj
@@ -114,6 +117,8 @@ obj/android-v7/359c154b_Assets.obj
 obj/android-v7/359c154b_AssetCache.obj
 obj/android-v7/359c154b_IAssetCache.obj
 obj/android-v7/92ac1ada_Vector_Impl_.obj
+obj/android-v7/ed8f79e1_LinearEaseNone.obj
+obj/android-v7/ed8f79e1_Linear.obj
 obj/android-v7/ed8f79e1_ExpoEaseInOut.obj
 obj/android-v7/ed8f79e1_ExpoEaseIn.obj
 obj/android-v7/ed8f79e1_BounceEaseOut.obj

@@ -110,7 +110,7 @@ class ApplicationMain {
 			(true ? flash.Lib.FULLSCREEN : 0) |
 			(0 == 4 ? flash.Lib.HW_AA_HIRES : 0) |
 			(0 == 2 ? flash.Lib.HW_AA : 0),
-			"clicker",
+			"Je Suis Gros !",
 			null
 			
 		);
@@ -203,7 +203,7 @@ class ApplicationMain {
 		wx.App.boot (function () {
 			
 			
-			frame = wx.Frame.create (null, null, "clicker", null, { width: 0, height: 0 });
+			frame = wx.Frame.create (null, null, "Je Suis Gros !", null, { width: 0, height: 0 });
 			
 			
 			#if openfl
